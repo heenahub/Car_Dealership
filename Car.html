@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index-pages</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="CSS/Style.css">
+    <link rel="stylesheet" href="CSS/Car.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+      <div class="header__top bg-dark text-white py-2">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-7 col-md-6">
+                      <ul class="list-unstyled d-flex flex-wrap">
+                          <li class="mr-3"><i class="fas fa-clock"></i> Week day: 08:00 am to 18:00 pm</li>
+                          <li><i class="fas fa-envelope"></i> Info.Carobar@gmail.com</li>
+                      </ul>
+                  </div>
+                  <div class="col-lg-5 col-md-6 text-right">
+                      <div class="header__top__phone d-inline">
+                          <i class="fa fa-phone"></i>
+                          <span>(+12) 345 678 910</span>
+                      </div>
+                      <div class="header__top__social d-inline ml-3">
+                          <a href="#" class="text-white mr-2"><i class="fab fa-facebook"></i></a>
+                          <a href="#" class="text-white mr-2"><i class="fab fa-twitter"></i></a>
+                          <a href="#" class="text-white mr-2"><i class="fab fa-google"></i></a>
+                          <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="container">
+          <div class="row align-items-center">
+              <div class="col-lg-2 col-6">
+                  <div class="header__logo">
+                      <a href="index.html"><img src="Log.png" alt="Logo" class="img-fluid"></a>
+                  </div>
+              </div>
+              <div class="col-lg-10 col-6">
+                  <nav class="navbar navbar-expand-lg navbar-light">
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                          <ul class="navbar-nav ml-auto">
+                              <li class="nav-item active"><a class="nav-link" href="./index.html">Home</a></li>
+                              <li class="nav-item"><a class="nav-link" href="Car.html">Cars</a></li>
+                              <li class="nav-item"><a class="nav-link" href="./blog.html">Blog</a></li>
+                              <li class="nav-item dropdown">
+                                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+                                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                      <a class="dropdown-item" href="./about.html">About Us</a>
+                                      <a class="dropdown-item" href="Car.html">Car Details</a>
+                                      <a class="dropdown-item" href="./blog-details.html">Blog Details</a>
+                                  </div>
+                              </li>
+                              <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
+                              <li class="nav-item"><a class="nav-link" href="Price.html">Price</a></li>
+                              <li class="nav-item"><a class="nav-link" href="Contact.html">Contact</a></li>
+                          </ul>
+                      </div>
+                      <a href="#" class="btn btn-primary ml-3"><i class="fa fa-cart-plus"></i> Add Car</a>
+                  </nav>
+              </div>
+          </div>
+      </div>
+  </header>
+
+    <!-- jQuery and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+    <div class="page-header set-bg" style="background-color:rgba(0, 0, 0, 0.381)">
+      <div class="container ">
+          <div class="row text-center">
+              <div class="col-12">
+                  <h2 class="text-white">Car</h2>
+              </div>
+              <div class="col-12">
+                  <a href="#" class="text-secondary"><i class="fa fa-home text-red"></i> Home</a>
+                  <a href="#" class="text-white"><span> >> </span><i class="fa-solid fa-car"></i> Cars</a>
+              </div>
+              
+          </div>
+      </div>
+  </div>
+
+    <!---------car section start heeer   ---------------->
+    <div class="All-contain">
+      <section class="car">
+        <div class="con_tainer">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-12">
+                        <div class="car1">
+                            <div class="c-search">
+                                <h5 class="AB">Car Search</h5>
+                                <form class="#">
+                                    <input type="text"  placeholder="Search">
+                                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+    
+                                </form>
+                                
+                            </div>
+    
+                        
+                            <div class="car__filter">
+                                <h5 class="AB">Car Filter</h5>
+                                <form action="#">
+                                    <select class="mb-3 form-control">
+                                        <option data-display="Brand">Select Brand</option>
+                                        <option value="">Acura</option>
+                                        <option value="">Audi</option>
+                                        <option value="">Bentley</option>
+                                        <<option value="">BMW</option>
+                                        <option value="">Bugatti</option>
+                                    </select>
+                                    <select class="mb-3 form-control">
+                                        <option data-display="Model">Select Model</option>
+                                        <option value="">Q3</option>
+                                        <option value="">A4 </option>
+                                        <option value="">AVENTADOR</option>
+                                    </select>
+                                    
+                                    <select class="mb-3 form-control">
+                                        <option value="">Body Style</option>
+                                        <option value="">Option 1</option>
+                                        <option value="">Option 2</option>
+                                    </select>
+                                    <select class="mb-3 form-control">
+                                        <option value="">Condition</option>
+                                        <option value="">First Hand</option>
+                                        <option value="">Second Hand</option>
+                                    </select>
+                                    <select class="mb-3 form-control">
+                                        <option value="">Transmisson</option>
+                                        <option value="">Bluetooth</option>
+                                        <option value="">WiFi</option>
+                                    </select>
+                                    <select class="mb-3 form-control">
+                                        <option value="">Mileage</option>
+                                        <option value="">27</option>
+                                        <option value="">20</option>
+                                        <option value="">15</option>
+                                        <option value="">10</option>
+                                    </select>
+                                    <select class="mb-3 form-control">
+                                        <option value="">Engine</option>
+                                        <option value="">BS3</option>
+                                        <option value="">BS4</option>
+                                        <option value="">BS5</option>
+                                        <option value="">BS6</option>
+                                    </select>
+                                    <select>
+                                        <option value="">Colors</option>
+                                        <option value="">Red</option>
+                                        <option value="">Blue</option>
+                                        <option value="">Black</option>
+                                        <option value="">Yellow</option>
+                                    </select>
+                                    <div class="filter-price">
+                                        <p class="AB">Price:</p>
+                                        <div class="price-range-wrap">
+                                            <div class="filter-price-range"></div>
+                                            <div class="range-slider">
+                                                <div class="price-input">
+                                                    <input type="text" id="filterAmount">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="car__filter__btn">
+                                        <button type="submit" class="site-btn">Reset FIlter</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+    
+    
+            <div class="col-lg-9 col-md-6 col-12">
+                        <div class="car_filter2">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="car_filter_it-l">
+                                        <h6>Show On Page</h6>
+                                        <select>
+                                            <option value="">9 Car</option>
+                                            <option value="">15 Car</option>
+                                            <option value="">20 Car</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="car_filter_it-r">
+                                        <h6>Sort By</h6>
+                                        <select>
+                                            <option value="">Price: Highest Fist</option>
+                                            <option value="">Price: Lowest Fist</option>
+                                        </select>
+                                    </div>
+                                </div> 
+                            </div>
+                        </div>
+                               <!----car item----->
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img style="aspect-ratio: 3/2;" src="Image/Porsche1.jpg" class="d-block w-100 h-10px" alt="..." >
+                          </div>
+                          <div class="carousel-item">
+                            <img style="aspect-ratio: 3/2;" src="Image/Porsche2.jpg" class="d-block w-100 h-10px" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img style="aspect-ratio: 3/2;" src="Image/Porche3.jpg" class="d-block w-100 h-10px" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img style="aspect-ratio: 3/2;" src="Image/Porsche2.jpg" class="d-block w-100 h-10px" alt="...">
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+                      <div class="car_item_con">
+                        <div class="car_item_con_text">
+                            <div class="Year">Model Yr <strong>2017-2021</strong></div>
+                            <h6>Car Item <strong>Rolls-Royce</strong></h6>
+                            
+                        </div>
+                        <div class="car__item__price">
+                            <span class="car-sale">For Sale</span>
+                            <h6>$70,900</h6>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-lg-4 col-md-4">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img style="aspect-ratio: 3/2;" src="Image/1.avif" class="d-block w-100 h-10px" alt="..." >
+                          </div>
+                          <div class="carousel-item">
+                            <img style="aspect-ratio: 3/2;" src="Image/2.avif" class="d-block w-100 h-10px" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img style="aspect-ratio: 3/2;" src="Image/9.avif" class="d-block w-100 h-10px" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img style="aspect-ratio: 3/2;" src="Image/2.avif" class="d-block w-100 h-10px" alt="...">
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+                      <div class="car_item_con">
+                        <div class="car_item_con_text">
+                            <div class="Year">Model Yr <strong>2019-2021</strong></div>
+                            <h6>Car Item <strong>Audi</strong></h6>
+                            
+                        </div>
+                        <div class="car__item__price">
+                            <span class="car-sale">For Sale</span>
+                            <h6>$79,000</h6>
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <div class="col-lg-4 col-md-4">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img style="aspect-ratio: 3/2;" src="Image/2.avif" class="d-block w-100 h-10px" alt="..." >
+                          </div>
+                          <div class="carousel-item">
+                            <img style="aspect-ratio: 3/2;" src="Image/11.avif" class="d-block w-100 h-10px" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img style="aspect-ratio: 3/2;" src="Image/4.avif" class="d-block w-100 h-10px" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img style="aspect-ratio: 3/2;" src="Image/3.avif" class="d-block w-100 h-10px" alt="...">
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+                      <div class="car_item_con">
+                        <div class="car_item_con_text">
+                            <div class="Year">Model Yr <strong>2016-2023</strong></div>
+                            <h6>Car Item <strong>BMW</strong></h6>
+                            
+                        </div>
+                        <div class="car__item__price">
+                            <span class="car-sale">For Sale</span>
+                            <h6>$70,000</h6>
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <div class="col-lg-4 col-md-4">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img style="aspect-ratio: 3/2;" src="Image/3.avif" class="d-block w-100 h-10px" alt="..." >
+                          </div>
+                          <div class="carousel-item">
+                            <img style="aspect-ratio: 3/2;" src="Image/10.avif" class="d-block w-100 h-10px" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img style="aspect-ratio: 3/2;" src="Image/Porsche1.jpg" class="d-block w-100 h-10px" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img style="aspect-ratio: 3/2;" src="Image/8.avif" class="d-block w-100 h-10px" alt="...">
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+                      <div class="car_item_con">
+                        <div class="car_item_con_text">
+                            <div class="Year">Model Yr <strong>2018-2022</strong></div>
+                            <h6>Car Item <strong>Lexus</strong></h6>
+                            
+                        </div>
+                        <div class="car__item__price">
+                            <span class="car-sale">For Sale</span>
+                            <h6>$85,900</h6>
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <div class="col-lg-4 col-md-4">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img style="aspect-ratio: 3/2;" src="Image/4.avif" class="d-block w-100 h-10px" alt="..." >
+                          </div>
+                          <div class="carousel-item">
+                            <img style="aspect-ratio: 3/2;" src="Image/9.avif" class="d-block w-100 h-10px" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img style="aspect-ratio: 3/2;" src="Image/1.avif" class="d-block w-100 h-10px" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img style="aspect-ratio: 3/2;" src="Image/2.avif" class="d-block w-100 h-10px" alt="...">
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+                      <div class="car_item_con">
+                        <div class="car_item_con_text">
+                            <div class="Year">Model Yr <strong>2019-2024</strong></div>
+                            <h6>Car Item <strong>Ferrari</strong></h6>
+                            
+                        </div>
+                        <div class="car__item__price">
+                            <span class="car-sale">For Sale</span>
+                            <h6>$73,900</h6>
+                        </div>
+                    </div>
+                </div>
+    
+    
+    
+                <div class="col-lg-4 col-md-4">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img style="aspect-ratio: 3/2;" src="Image/5.avif" class="d-block w-100 h-10px" alt="..." >
+                          </div>
+                          <div class="carousel-item">
+                            <img style="aspect-ratio: 3/2;" src="Image/8.avif" class="d-block w-100 h-10px" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img style="aspect-ratio: 3/2;" src="Image/9.avif" class="d-block w-100 h-10px" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img style="aspect-ratio: 3/2;" src="Image/3.avif" class="d-block w-100 h-10px" alt="...">
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+                      <div class="car_item_con">
+                        <div class="car_item_con_text">
+                            <div class="Year">Model Yr <strong>2016-2024</strong></div>
+                            <h6>Car Item <strong>Jagur</strong></h6>
+                            
+                        </div>
+                        <div class="car__item__price">
+                            <span class="car-sale">For Sale</span>
+                            <h6>$83,900</h6>
+                        </div>
+                    </div>
+                </div>
+    
+    
+    
+                <div class="col-lg-4 col-md-4">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img style="aspect-ratio: 3/2;" src="Image/Porsche2.jpg" class="d-block w-100 h-10px" alt="..." >
+                          </div>
+                          <div class="carousel-item">
+                            <img style="aspect-ratio: 3/2;" src="Image/7.avif" class="d-block w-100 h-10px" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img style="aspect-ratio: 3/2;" src="Image/Porche3.jpg" class="d-block w-100 h-10px" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img style="aspect-ratio: 3/2;" src="Image/2.avif" class="d-block w-100 h-10px" alt="...">
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+                      <div class="car_item_con">
+                        <div class="car_item_con_text">
+                            <div class="Year">Model Yr <strong>2018-2024</strong></div>
+                            <h6>Car Item <strong>Tesla</strong></h6>
+                            
+                        </div>
+                        <div class="car__item__price">
+                            <span class="car-sale">For Sale</span>
+                            <h6>$81,900</h6>
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <div class="col-lg-4 col-md-4">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img style="aspect-ratio: 3/2;" src="Image/7.avif" class="d-block w-100 h-10px" alt="..." >
+                          </div>
+                          <div class="carousel-item">
+                            <img style="aspect-ratio: 3/2;" src="Image/8.avif" class="d-block w-100 h-10px" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img style="aspect-ratio: 3/2;" src="Image/Porche3.jpg" class="d-block w-100 h-10px" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img style="aspect-ratio: 3/2;" src="Image/5.avif" class="d-block w-100 h-10px" alt="...">
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+                      <div class="car_item_con">
+                        <div class="car_item_con_text">
+                            <div class="Year">Model Yr <strong>2016-2021</strong></div>
+                            <h6>Car Item <strong>Acura</strong></h6>
+                            
+                        </div>
+                        <div class="car__item__price">
+                            <span class="car-sale">For Sale</span>
+                            <h6>$85,900</h6>
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <div class="col-lg-4 col-md-4">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img style="aspect-ratio: 3/2;" src="Image/8.avif" class="d-block w-100 h-10px" alt="..." >
+                          </div>
+                          <div class="carousel-item">
+                            <img style="aspect-ratio: 3/2;" src="Image/7.avif" class="d-block w-100 h-10px" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img style="aspect-ratio: 3/2;" src="Image/11.avif" class="d-block w-100 h-10px" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img style="aspect-ratio: 3/2;" src="Image/Porsche4.jpg" class="d-block w-100 h-10px" alt="...">
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div>
+                      <div class="car_item_con">
+                        <div class="car_item_con_text">
+                            <div class="Year">Model Yr <strong>2018-2021</strong></div>
+                            <h6>Car Item <strong>Kia EV6</strong></h6>
+                            
+                        </div>
+                        <div class="car__item__price">
+                            <span class="car-sale">For Sale</span>
+                            <h6>$73,900</h6>
+                        </div>
+                    </div>
+                </div>
+                
+                
+    
+                <div class="shadow-lg p-3 mb-5 bg-white rounded border border-danger"> <strong>1</strong></div>
+                
+                <div class="shadow-lg p-3 mb-5 bg-white rounded">2</div>
+                <div class="shadow-lg p-3 mb-5 bg-white rounded">3</div>
+                <div class="shadow-lg p-3 mb-5 bg-white rounded">>></div>
+    
+                
+                
+                
+    
+                
+                
+                
+    
+    
+                        
+    
+            </div>
+            </div>
+        </div>
+            
+        </section>
+    
+    
+    
+    
+        <!---------car section start heeer   ---------------->
+    
+    
+    
+        <!---------location section start heeer   ---------------->
+        <div class="location">
+            <div class="container">
+                <div class="row">
+                    <!--------left------->
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <div class="section-header text-left">
+                            Car Centre & Car Point 
+                        </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="location-item">
+                                        <i class="fa fa-map-marker-alt icon"></i>
+                                        <div class="location-text">
+                                            <h3>Car Point</h3>
+                                            <p>Dream Motors 123 Fake St,
+                                              Nagpur, 440001, India</p>
+                                            <p><strong>Call:</strong>+012 345 6789</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="location-item">
+                                        <i class="fa fa-map-marker-alt icon"></i>
+                                        <div class="location-text">
+                                            <h3>Car Point</h3>
+                                            <p>Fantasy Cars 456 Myth Rd,
+                                              Nagpur, 440002, India</p>
+                                            <p><strong>Call:</strong>+012 345 6789</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="location-item">
+                                        <i class="fa fa-map-marker-alt icon"></i>
+                                        <div class="location-text">
+                                            <h3>Car Point</h3>
+                                            <p>Imaginary Autos 789 Dream Ave,
+                                              Nagpur, 440003, India</p>
+                                            <p><strong>Call:</strong>+012 345 6789</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="location-item">
+                                        <i class="fa fa-map-marker-alt icon"></i>
+                                        <div class="location-text">
+                                            <h3>Car Point</h3>
+                                            <p>Visionary Vehicles
+                                              321 Illusion Blvd,
+                                              Nagpur, 440004, India</p>
+                                            <p><strong>Call:</strong>+012 345 6789</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+    
+                    </div>
+                    <!--------Right------->
+                    <div class="col-lg-6 col-md-6 col-12 all">
+                        <div class="location-form">
+                            <h3>Car Inquiry </h3>
+                            <form>
+                                <div class="control-group">
+                                    <input type="text" class="form-control" placeholder="Name" required="required">
+                                </div>
+                                <div class="control-group">
+                                    <input type="email" class="form-control" placeholder="Email" required="required">
+                                </div>
+                                <div class="control-group">
+                                    <textarea class="form-control" placeholder="Description" required="required"></textarea>
+                                </div>
+                                <div>
+                                    <button class="btn btn-primary" type="submit">Send Request</button>
+                                </div>
+                            </form>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---------location section start heeer   ---------------->
+
+
+        <!---------dealer section start heeer   ---------------->
+
+        <section>
+          <div class="Sell">
+              <h2 class="Sell-head"> Best Car Offers</h2>
+              <div class="card-group">
+                  <div class="card">
+                    <img src="Image/Hoca1.avif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">BMW 6 Series Gran Coupe</h5>
+                      
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="Image/Hoca2.avif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">BMW M2 Series</h5>
+                      
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img style="aspect-ratio: 3/2;" src="Image/HOca3.avif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">BMWM2 CS</h5>
+                      
+                    </div>
+                  </div>
+                </div>
+                <br>
+  
+                <div class="card-group">
+                  <div class="card">
+                    <img src="Image/Hoca4.avif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Rolls-Royce</h5>
+                      
+                    </div>
+
+                  </div>
+                  <div class="card">
+                    <img src="Image/Hoca5.avif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Ferrari F8 Tributo</h5>
+                      
+                    </div>
+                    
+                  </div>
+                  <div class="card">
+                    <img src="Image/Hoca6.avif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Audi R8</h5>
+                      
+                    </div>
+                    
+                  </div>
+                </div>  
+  
+  
+  
+  
+          </div>
+      </section>
+      <!---------dealer section eng heeer   ---------------->
+
+
+      <!---------footer section start heeer   ---------------->
+
+        <div class="footer">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-3 col-md-6">
+                      <div class="footer-contact">
+                          <h2>Get In Touch</h2>
+                          <p><i class="fa fa-map-marker-alt"></i>Dream Cars Nagpur
+7890 Car Avenue
+Sadar,
+Nagpur, Maharashtra 440001
+India</p>
+                          <p><i class="fa fa-phone-alt"></i>+012 345 67890</p>
+                          <p><i class="fa fa-envelope"></i>info@Carobar.com</p>
+                          <div class="footer-social">
+                              <a class="btn" href=""><i class="fab fa-twitter"></i></a>
+                              <a class="btn" href=""><i class="fab fa-facebook-f"></i></a>
+                              <a class="btn" href=""><i class="fab fa-youtube"></i></a>
+                              <a class="btn" href=""><i class="fab fa-instagram"></i></a>
+                              <a class="btn" href=""><i class="fab fa-linkedin-in"></i></a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                      <div class="footer-link">
+                          <h2>Popular Links</h2>
+                          <a href="">About Us</a>
+                          <a href="">Contact Us</a>
+                          <a href="">Our Service</a>
+                          <a href="">Service Points</a>
+                          <a href="">Pricing Plan</a>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                      <div class="footer-link">
+                          <h2>Useful Links</h2>
+                          <a href="">Terms of use</a>
+                          <a href="">Privacy policy</a>
+                          <a href="">Cookies</a>
+                          <a href="">Help</a>
+                          <a href="">FQAs</a>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6">
+                      <div class="footer-newsletter">
+                          <h2>Newsletter</h2>
+                          <form>
+                              <input class="form-control" placeholder="Full Name">
+                              <input class="form-control" placeholder="Email">
+                              <button class="btn btn-custom">Submit</button>
+                          </form>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="container copyright ">
+              <p>&copy; <a href="#">Carobar </a>, All Right Reserved. Designed By Heena Budhabaware</p>
+          </div>
+      </div>
+      <!---------footer section end heeer   ---------------->
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        <!---------location section end heeer   ---------------->
+    
+    </div>
+
+
+
+
+
+</body>
+</html>

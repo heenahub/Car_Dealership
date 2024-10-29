@@ -1,0 +1,132 @@
+.ALL-contain{
+    background-color: black;
+}
+
+.rating{
+    display: flex;
+    justify-content: row;
+}.testimonial-2 {
+    padding: 60px 0;
+    color: #fff; /* Change text color for readability */
+    text-align: center; /* Center text for a cohesive look */
+}
+
+.testimonial-inner {
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background for better text visibility */
+    padding: 30px;
+    border-radius: 10px; /* Rounded corners for a softer look */
+}
+
+.testimonia-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.carousel-item {
+    padding: 20px 0;
+}
+
+.avatar {
+    margin-bottom: 15px; /* Space between avatar and text */
+}
+
+.avatar img {
+    width: 100px; /* Fixed width for avatars */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Circular avatar */
+}
+
+.author-name {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.rating {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start; /* Align stars to the left */
+}
+
+.rating li {
+    color: #FFD700; /* Gold color for stars */
+    margin-right: 5px; /* Space between stars */
+}
+
+/* Carousel control styles */
+.carousel-control-prev,
+.carousel-control-next {
+    color: #fff; /* White color for control arrows */
+    
+  
+}
+.carousel-control-next {
+    bottom: -200px; /* Move margin to CSS */
+}
+.carousel-control-prev{
+    bottom: -170px;
+}
+
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    color: #FFD700; /* Change color on hover for better visibility */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .testimonial-inner {
+        padding: 20px; /* Reduce padding on smaller screens */
+    }
+
+    .testimonia-header h1 {
+        font-size: 2rem; /* Adjust heading size */
+    }
+
+    .avatar img {
+        width: 80px; /* Smaller avatars on mobile */
+    }
+}
+
+
+
+
+
+/*-----------section other------*/
+.ALL{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: auto;
+    background-color: black;
+
+}
+.location-item{
+    display: flex;
+    justify-content: row;
+    flex-direction: row;
+}
+.icon{
+    margin-right: 10px;
+    color: red;
+    font-size: xx-large;
+}
+.location-text h3{
+    font-size: xx-large;
+    color: blueviolet;
+    font-style: initial;
+}
+.location-text p{
+    color: white;
+    
+}
+.location-form h3{
+    color: brown;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+}
+.all6 {
+    margin-top: 50px;
+    
+}

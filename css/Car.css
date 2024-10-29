@@ -1,0 +1,166 @@
+.All-contain{
+    background-color: black;
+    padding: 20px;
+}
+
+.car {
+	padding-bottom: 120px;
+}
+.AB{
+    color: aliceblue;
+}
+.car_item_con_text{
+	list-style: none;
+	font-size: 15px;
+	color: whitesmoke;
+	font-weight: 700;
+	position: relative;
+	display: inline-block;
+	margin-right: 40px;
+    align-content: center;
+    
+}
+
+.car_item_con{
+    text-align: center;
+}
+.car__item {
+	margin-bottom: 30px;
+}
+.car__item__price{
+    display: flex;
+    flex-direction: row;
+}
+.car-sale{
+    background-color: brown;
+    color: white;
+    border-width: 2px;
+    border-color: #87228d;
+    width: 50%;
+    height: 30px;
+
+}
+.car__item__price h6{
+    background-color: rgb(104, 97, 110);
+    color: white;
+    border-width: 2px;
+    border-color: #30be16;
+    width: 50%;
+    height: 30px;
+
+}
+
+
+
+
+/*--------------
+---------------
+---------------
+-------------
+-----------------*/
+.location{
+    padding: 20px;
+    margin-top: 40px;
+    background-color: rgb(59, 52, 52);
+}
+
+.section-header{
+    font-size: xx-large;
+    
+    color: brown;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+
+}
+.location-item{
+    display: flex;
+    justify-content: row;
+    flex-direction: row;
+}
+.icon{
+    margin-top: 10px;
+    color: red;
+    margin-right: 20px;
+    font-size: xx-large;
+}
+.location-text h3{
+    font-size: x-large;
+    color: blueviolet;
+}
+.location-text p{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.location-form h3{
+    color: brown;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+
+}
+.all{
+    background-color: #202C45;
+}
+.control-group{
+    margin-bottom: 20px;
+}
+
+.location {
+    margin: 20px; /* Add margin as needed */
+}
+
+.con_tainer {
+    display: flex;
+    flex-direction: row; /* Default layout for larger screens */
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Adjust for larger screens (above 1024px) */
+
+@media (min-width: 1024px) {
+    .row {
+        flex-direction: row; /* Ensure items are in a row */
+        justify-content: flex-start; /* Align items to the start */
+    }
+    
+    .col-lg-7, .col-lg-5 {
+        display: flex;
+        flex-direction: column; /* Stack items within each column */
+    }
+}
+
+/* Adjust for smaller screens */
+@media (max-width: 1024px) {
+    .container {
+        flex-direction: column; /* Stack vertically on smaller screens */
+    }
+    .location-item {
+        display: flex;
+        align-items: center; /* Center icon and text vertically */
+    }
+}
+
+
+/*                  dealer           */
+.card-body{
+    background-color: black;
+}
+.card-title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+.Sell-head{
+    color: brown;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+
+}

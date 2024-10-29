@@ -1,0 +1,90 @@
+/* Resetting margin and padding for body */
+.All-in-one{
+    background-color: black;
+}
+
+
+
+/*----hero*/
+.container1{
+    background-image: url(Image/Wall.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    padding: 20px;
+}
+.cont1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    align-items: center;
+    font-size: xx-large;
+    
+}
+.Content2{
+    margin-top: 40px;
+}
+.hero{
+    background-color: black;
+    color: white;
+}
+.hero-title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: brown;
+
+}
+.hero-text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+/*----Sell-----*/
+.card-title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: brown;
+}
+.card-text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    
+}
+
+.Sell-head{
+    color: brown;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+
+}
+.sell{
+    background-color: black;
+}
+.card-body{
+    background-color: black;
+}
+.card-footer{
+    background-color: black;
+    color: white;
+}
+/*-----sell End---------*/
+/*-----search start---------*/
+.Search-from{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+}
+.Search-from-box{
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blueviolet;
+}
+
+.Search-from-box-button{
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+/*-----search end---------*/
